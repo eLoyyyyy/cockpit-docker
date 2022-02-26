@@ -1,4 +1,4 @@
-FROM php:7.4-apache
+FROM arm64v8/php:8.0-apache
 
 ARG COCKPIT_VERSION="master"
 
